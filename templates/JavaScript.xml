@@ -1,0 +1,7 @@
+<templateSet group="JavaScript">
+  <template name="/" value="/*:$END$*/" description="inserts flow type skeleton" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
