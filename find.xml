@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '.../api/loyaltyEndpoints.js - [uidata-appserver]'" />
-    <option name="defaultScopeName" value="File '.../api/loyaltyEndpoints.js - [uidata-appserver]'" />
-    <option name="SEARCH_SCOPE" value="File '.../api/loyaltyEndpoints.js - [uidata-appserver]'" />
+    <option name="customScope" value="Project 'dynamo-streaming-reader'" />
+    <option name="defaultScopeName" value="Project 'dynamo-streaming-reader'" />
+    <option name="SEARCH_SCOPE" value="Project 'dynamo-streaming-reader'" />
   </component>
 </application>
