@@ -1,7 +1,12 @@
 <templateSet group="JavaScript">
-  <template name="/" value="/*:$END$*/" description="inserts flow type skeleton" toReformat="false" toShortenFQNames="true">
+  <template name=":" value="/*:$END$*/" description="inserts flow type skeleton" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="export" value="/*export*/ $END$" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
 </templateSet>
