@@ -4,7 +4,14 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="export" value="/*export*/ $END$" toReformat="false" toShortenFQNames="true">
+  <template name="export" value="/*export*/ $END$" description="inserts flow export tag" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="import" value="/*:: import $TYPES$ from &quot;$FILE$&quot; */" description="inserts flow import skeleton" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPES" expression="jsSuggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="FILE" expression="jsSuggestIndexName()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
