@@ -1,8 +1,10 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern="deflowify" type="Bash" />
+      <mapping pattern="merchants" type="PLAIN_TEXT" />
+      <mapping pattern="providers" type="PLAIN_TEXT" />
       <mapping pattern="pre-commit" type="PLAIN_TEXT" />
+      <mapping pattern="deflowify" type="Bash" />
     </extensionMap>
   </component>
 </application>
