@@ -1,5 +1,6 @@
 <templateSet group="JavaScript">
-  <template name=":" value="/*:$END$*/" description="inserts flow type skeleton" toReformat="false" toShortenFQNames="true">
+  <template name=":" value="/*: $TYPE$*/ $END$" description="inserts flow type skeleton" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="OTHER" value="true" />
     </context>
