@@ -2,6 +2,7 @@
   <action id="Arrangement.Rule.Group.Condition.Move.Up" />
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
+  <action id="CodeCompletion" />
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="alt up" />
   </action>
@@ -11,5 +12,9 @@
   <action id="MethodDown" />
   <action id="MethodUp" />
   <action id="ShowContent" />
+  <action id="SmartTypeCompletion">
+    <keyboard-shortcut first-keystroke="shift alt space" />
+    <keyboard-shortcut first-keystroke="ctrl space" />
+  </action>
   <action id="XDebugger.MoveWatchDown" />
 </keymap>
