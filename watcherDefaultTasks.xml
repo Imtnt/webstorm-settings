@@ -13,7 +13,7 @@
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="C:/Users/workspace/cs-import-node/node_modules/.bin/babel.cmd" />
+      <option name="program" value="C:/Users/workspace/cs-import-node/node_modules/.bin/babel" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="false" />
       <option name="workingDir" value="$ContentRoot$" />
@@ -32,7 +32,7 @@
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="C:/Users/workspace/modoapi/node_modules/.bin/babel.cmd" />
+      <option name="program" value="C:/Users/workspace/cs-import-node/node_modules/.bin/babel.cmd" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="false" />
       <option name="workingDir" value="$ContentRoot$" />
