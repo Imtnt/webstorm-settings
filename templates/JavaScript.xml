@@ -1,0 +1,13 @@
+<templateSet group="JavaScript">
+  <template name=":" value="/*:$TYPE$*/$END$" description="insert flow" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="::" value="/*::&#10;$END$&#10;*/" description="flow def" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
