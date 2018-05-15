@@ -1,0 +1,16 @@
+<toolSet name="External Tools">
+  <tool name="Remove test dir" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="rm" />
+      <option name="PARAMETERS" value="-r test" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/workspace/generator-valory" />
+    </exec>
+  </tool>
+  <tool name="Create test dir" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="mkdir" />
+      <option name="PARAMETERS" value="test" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/workspace/generator-valory" />
+    </exec>
+  </tool>
+</toolSet>
